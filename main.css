@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+}
+
+.bgpm {
+    background-image: url("./imgs/bg.jpg");
+    width: 35%;
+    justify-content: center;
+    height: 100vh;
+    display: block;
+    align-content: center;
+}
+
+.namet {
+    color: antiquewhite;
+    background-size: 100px;
+    margin-top: 150px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+fieldset {
+    display: block;
+    width: 126%;
+    height: 30%;
+    background-color: dimgrey;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 100px;
+}
+label {
+    display: inline-block;
+}
+
+input {
+    display: inline-block;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 280px;
+}
+
+p {
+    text-align: center;
+}
+
+.signmsg {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    width: 90px;
+    height: 80px;
+}
+
+.bla {
+    background-color: rgba( 25, 25, 25, 0.6);
+}
+
+a:visited {
+    color: teal;
+}
